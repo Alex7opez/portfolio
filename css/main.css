@@ -1,0 +1,56 @@
+/*
+Text #F7F7F7
+Body #393E46
+Alt1 #6D9886
+Alt2 #F2E7D5
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #393E46;
+}
+
+/*h1, h2, h3, h4, h5, h6, p{
+    color: #F7F7F7;
+    font-family: "bebas-neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}*/
+
+nav {
+    position: fixed
+    top: 5%;
+    text-align: center;
+}
+
+nav a, h1 a{
+    text-decoration: none;
+    color: #F7F7F7;
+    transition: all 0.15s ease-in-out;
+    
+    
+}
+
+nav a:hover, h1 a:hover{
+    color: #F2E7D5;
+}
+
+.overview {
+    width: 40%;
+    padding: 5%;
+    float: left
+}
+
+.overview-img {
+    width: 40%;
+    padding: 5%;
+    float: left;
+}
