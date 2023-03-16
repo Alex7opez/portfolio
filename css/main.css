@@ -17,17 +17,16 @@ body {
     background-color: #393E46;
 }
 
-/*h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, nav a{
     color: #F7F7F7;
     font-family: "bebas-neue", sans-serif;
     font-weight: 700;
     font-style: normal;
     
-}*/
+}
 
 nav {
-    position: fixed
-    top: 5%;
+    padding: 2% 0% 1% 0%;
     text-align: center;
 }
 
